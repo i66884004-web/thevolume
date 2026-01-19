@@ -22,7 +22,6 @@
     </repositories>
 
     <dependencies>
-        <!-- Paper 1.21.11 stable release (NO SNAPSHOT) -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
@@ -33,7 +32,6 @@
 
     <build>
         <plugins>
-            <!-- Java compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
