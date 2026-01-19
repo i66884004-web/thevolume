@@ -16,13 +16,13 @@
 
     <repositories>
         <repository>
-            <id>papermc</id>
+            <id>papermc-public</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
     </repositories>
 
     <dependencies>
-        <!-- Paper 1.21.11 stable release -->
+        <!-- Paper 1.21.11 stable release (NO SNAPSHOT) -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
@@ -33,7 +33,7 @@
 
     <build>
         <plugins>
-            <!-- Java 21 compiler -->
+            <!-- Java compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
