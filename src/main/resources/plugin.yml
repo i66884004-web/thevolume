@@ -1,0 +1,4 @@
+name: TheVolume
+version: 1.0
+main: me.volume.TheVolume
+api-version: 1.21
